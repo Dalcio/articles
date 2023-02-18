@@ -1,46 +1,4 @@
 {
   "title": "React Lifecycle",
-  "content": "# React Lifecycle
-
-  React is a popular JavaScript library used for building user interfaces. One of the key features of React is its lifecycle methods. Lifecycle methods are special methods that are called at various points during the lifecycle of a React component. 
-  
-  The React lifecycle can be divided into three phases: mounting, updating, and unmounting. Each phase has a set of lifecycle methods that are called at specific times during the phase.
-  
-  ## Mounting Phase
-  
-  The mounting phase is when a component is first created and inserted into the DOM. During this phase, the following lifecycle methods are called:
-  
-  1. `constructor()`: This is the first method that is called when a component is created. It is used to initialize state and bind event handlers.
-  
-  2. `static getDerivedStateFromProps()`: This method is called when the component is first created and when it receives new props. It is used to update state based on the new props.
-  
-  3. `render()`: This method is called to generate the initial HTML for the component.
-  
-  4. `componentDidMount()`: This method is called after the component is mounted to the DOM. It is used to perform any necessary setup, such as fetching data from an API or setting up event listeners.
-  
-  ## Updating Phase
-  
-  The updating phase is when a component is re-rendered due to changes in its props or state. During this phase, the following lifecycle methods are called:
-  
-  1. `static getDerivedStateFromProps()`: This method is called when the component receives new props. It is used to update state based on the new props.
-  
-  2. `shouldComponentUpdate()`: This method is called before a component is updated. It is used to determine whether the component should be re-rendered or not.
-  
-  3. `render()`: This method is called to generate the updated HTML for the component.
-  
-  4. `componentDidUpdate()`: This method is called after the component is updated. It is used to perform any necessary cleanup, such as updating the DOM or fetching new data.
-  
-  ## Unmounting Phase
-  
-  The unmounting phase is when a component is removed from the DOM. During this phase, the following lifecycle method is called:
-  
-  1. `componentWillUnmount()`: This method is called before the component is removed from the DOM. It is used to perform any necessary cleanup, such as removing event listeners or canceling API requests.
-  
-  Here is a diagram showing the React component lifecycle:
-  
-  ![React component lifecycle diagram
-  ](https: //miro.medium.com/max/1400/1*cKyutDLsO_ZeolPmO-Ndqw.png)
-  
-  In conclusion, the React lifecycle is a powerful feature of the React library that allows developers to control the behavior of their components. By understanding the lifecycle methods, developers can optimize their components for performance and ensure that they behave correctly in different scenarios.
-  "
+  "content": "# An Example Article\n\nThis is some example content for the article.\n\n## Section 1\n\nHere's some content for the first section.\n\n## Section 2\n\nAnd here's some content for the second section.\n\n### Subsection\n\nThis is a subsection within the second section.\n\n## Conclusion\n\nIn conclusion, this article was just an example."
 }
